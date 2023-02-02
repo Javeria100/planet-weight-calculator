@@ -1,0 +1,21 @@
+mass_on_earth=int(input("type your weight on earth in any unit"))
+gmercury= 0.38
+gvenus=0.91
+gearth=1.0
+gmars=0.38
+gjupiter=2.34
+gsaturn=0.93
+guranus=0.92
+gneptune=1.12
+
+def wmercury():
+    weight=str(mass_on_earth * gmercury)
+    print("Your weight on mercury is " + weight)
+
+def wvenus():
+    weight=str(mass_on_earth * gvenus)
+    print("Your weight on venus is " + weight)
+
+wvenus()
+wmercury()
+    
